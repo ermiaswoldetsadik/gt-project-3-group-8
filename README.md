@@ -10,6 +10,4 @@ hhjhjhhjhhh
 
 
 
-
-using git 
->>>>>>> jack
+project 3
