@@ -23,8 +23,8 @@ mongoose.connect(
     useNewUrlParser: true
   }
 );
-// Send every other request to the React app
-// Define any API routes before this runs
+
+// Handles any request that don't match the ones above
 app.get("*", (req, res) => {
   res.sendFile(path.join(__dirname, "./client/build/index.html"));
 });
